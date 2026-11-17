@@ -1,0 +1,29 @@
+#,severity,type,sku,category,ABC,detail,impact_$,recommended_action
+1,Critical,STOCKOUT_RISK,SKU031,Beverages,A,Projected to run out in week 8; shortfall 182 units over 8 wks (lead time 2 wks),8241,Expedite open POs; raise new PO for ~417 units (shortfall + safety stock)
+2,Critical,STOCKOUT_RISK,SKU010,Staples,C,Projected to run out in week 3; shortfall 74 units over 8 wks (lead time 4 wks),1677,Expedite open POs; raise new PO for ~89 units (shortfall + safety stock)
+3,High,LATE_PO,SKU021,Beverages,A,PO50027: 874 units overdue by 13 days,53218,Chase supplier for PO50027; confirm new ETA and expedite if needed
+4,High,LATE_PO,SKU031,Beverages,A,"PO89365: 1,408 units overdue by 3 days",37875,Chase supplier for PO89365; confirm new ETA and expedite if needed
+5,High,LATE_PO,SKU002,Snacks,A,PO86242: 557 units overdue by 12 days,36166,Chase supplier for PO86242; confirm new ETA and expedite if needed
+6,High,LATE_PO,SKU009,Home Care,A,PO19740: 399 units overdue by 11 days,30412,Chase supplier for PO19740; confirm new ETA and expedite if needed
+7,High,LATE_PO,SKU028,Personal Care,A,PO27321: 682 units overdue by 1 days,29415,Chase supplier for PO27321; confirm new ETA and expedite if needed
+8,High,LATE_PO,SKU023,Personal Care,A,PO42219: 493 units overdue by 1 days,24122,Chase supplier for PO42219; confirm new ETA and expedite if needed
+9,High,LATE_PO,SKU038,Personal Care,A,PO56169: 535 units overdue by 2 days,15857,Chase supplier for PO56169; confirm new ETA and expedite if needed
+10,High,STOCKOUT_RISK,SKU037,Snacks,C,Projected to run out in week 4; shortfall 102 units over 8 wks (lead time 1 wks),7306,Expedite open POs; raise new PO for ~107 units (shortfall + safety stock)
+11,High,STOCKOUT_RISK,SKU018,Personal Care,C,Projected to run out in week 6; shortfall 186 units over 8 wks (lead time 3 wks),6796,Expedite open POs; raise new PO for ~260 units (shortfall + safety stock)
+12,Medium,EXCESS_STOCK,SKU008,Personal Care,A,"32 weeks of cover vs 16-week limit (~3,545 units above limit)",221967,"Pause replenishment; review promotion, transfer or markdown options"
+13,Medium,EXCESS_STOCK,SKU024,Home Care,A,33 weeks of cover vs 16-week limit (~943 units above limit),78944,"Pause replenishment; review promotion, transfer or markdown options"
+14,Medium,EXCESS_STOCK,SKU040,Staples,A,"32 weeks of cover vs 16-week limit (~1,132 units above limit)",62622,"Pause replenishment; review promotion, transfer or markdown options"
+15,Medium,EXCESS_STOCK,SKU006,Beverages,A,30 weeks of cover vs 16-week limit (~831 units above limit),37795,"Pause replenishment; review promotion, transfer or markdown options"
+16,Medium,DEMAND_SHIFT,SKU008,Personal Care,A,Last 4-wk demand (313/wk) is 30% above next-4-wk forecast (240/wk),32500,"Review forecast with sales; check for promo, new-listing or stock-out effects"
+17,Medium,EXCESS_STOCK,SKU028,Personal Care,A,22 weeks of cover vs 16-week limit (~738 units above limit),31856,"Pause replenishment; review promotion, transfer or markdown options"
+18,Medium,EXCESS_STOCK,SKU034,Home Care,B,"28 weeks of cover vs 16-week limit (~1,014 units above limit)",25918,"Pause replenishment; review promotion, transfer or markdown options"
+19,Medium,EXCESS_STOCK,SKU007,Snacks,B,24 weeks of cover vs 16-week limit (~535 units above limit),23688,"Pause replenishment; review promotion, transfer or markdown options"
+20,Medium,DEMAND_SHIFT,SKU009,Home Care,A,Last 4-wk demand (82/wk) is 38% below next-4-wk forecast (132/wk),23091,"Review forecast with sales; check for promo, new-listing or stock-out effects"
+21,Medium,DEMAND_SHIFT,SKU025,Staples,A,Last 4-wk demand (176/wk) is 48% above next-4-wk forecast (119/wk),7311,"Review forecast with sales; check for promo, new-listing or stock-out effects"
+22,Medium,LATE_PO,SKU037,Snacks,C,PO40479: 73 units overdue by 6 days,3912,Chase supplier for PO40479; confirm new ETA and expedite if needed
+23,Medium,DEMAND_SHIFT,SKU037,Snacks,C,Last 4-wk demand (19/wk) is 35% below next-4-wk forecast (30/wk),2973,"Review forecast with sales; check for promo, new-listing or stock-out effects"
+24,Medium,LATE_PO,SKU039,Home Care,C,PO44252: 127 units overdue by 4 days,808,Chase supplier for PO44252; confirm new ETA and expedite if needed
+25,Medium,LATE_PO,SKU010,Staples,C,PO36638: 42 units overdue by 2 days,582,Chase supplier for PO36638; confirm new ETA and expedite if needed
+26,Low,EXCESS_STOCK,SKU032,Snacks,B,21 weeks of cover vs 16-week limit (~383 units above limit),19317,"Pause replenishment; review promotion, transfer or markdown options"
+27,Low,EXCESS_STOCK,SKU012,Snacks,B,20 weeks of cover vs 16-week limit (~151 units above limit),10803,"Pause replenishment; review promotion, transfer or markdown options"
+28,Low,EXCESS_STOCK,SKU039,Home Care,C,27 weeks of cover vs 16-week limit (~542 units above limit),3447,"Pause replenishment; review promotion, transfer or markdown options"
